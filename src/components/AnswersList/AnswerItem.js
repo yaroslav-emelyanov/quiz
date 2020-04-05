@@ -2,6 +2,7 @@ import React from 'react'
 import classes from './AnswerItem.scss'
 
 const AnswerItem = props => {
+
     const cls = [classes.AnswerItem]
 
     if (props.state) {

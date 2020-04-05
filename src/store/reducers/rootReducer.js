@@ -1,7 +1,8 @@
 import {combineReducers} from 'redux'
 import quiz from './quiz'
-import test from './test'
+import create from './create'
+import auth from './auth'
 
 export default combineReducers({
-  quiz, test
+  quiz, create, auth
 })
